@@ -81,18 +81,17 @@
         </p>
 
         <!-- ........................................................ -->
-        <!-- PASTE YOUR DATAWRAPPER EMBED CODE BELOW, REPLACING THIS  -->
-        <!-- COMMENT. It starts with <iframe and ends with </script>. -->
+        <!-- <iframe title="2024 Presidential Election Results in Texas (by county)" aria-label="Choropleth map" id="datawrapper-chart-sneO6" src="https://datawrapper.dwcdn.net/sneO6/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="670" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script> It starts with <iframe and ends with </script>. -->
         <!-- ........................................................ -->
 
         <p>
-          <!-- PASTE EMBED CODE HERE -->
+          <!-- <iframe title="2024 Presidential Election Results in Texas (by county)" aria-label="Choropleth map" id="datawrapper-chart-sneO6" src="https://datawrapper.dwcdn.net/sneO6/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="670" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script> -->
         </p>
 
         <!-- SOURCE LINE: edit the text below to match where your data came from -->
         <p>
           <small>
-            Source: [WHO PUBLISHED YOUR DATA], 2024 general election results.
+            Source: Texas Legislative Council, 2024 general election results.
             Precinct-level results were added up by county for this map.
           </small>
         </p>
