@@ -1,5 +1,106 @@
-# electio_map
-Data 6: election map 
-body {
-  padding-top: 5rem;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>2024 Presidential Election in Texas</title>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      body {
+        padding-top: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+
+        <!-- PUT YOUR GITHUB USER NAME IN THE URL BELOW (replace YOURUSERNAME) -->
+        <a class="navbar-brand" href="https://YOURUSERNAME.github.io">HOME</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExampleDefault"
+          aria-controls="navbarsExampleDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#top">TX Election 2024</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <div class="starter-template text-left py-5 px-3">
+
+        <p><br /></p>
+
+        <a name="top"></a>
+
+        <h1>How did Texas vote in 2024?</h1>
+
+        <p>
+          Donald Trump won 242 of Texas's 254 counties in the 2024 presidential
+          election. Kamala Harris won 12, including the state's most populous
+          counties of Harris, Dallas, Bexar and Travis. Hover over any county
+          on the map to see the winner and the vote totals.
+        </p>
+
+        <!-- ........................................................ -->
+        <!-- PASTE YOUR DATAWRAPPER EMBED CODE BELOW, REPLACING THIS  -->
+        <!-- COMMENT. It starts with <iframe and ends with </script>. -->
+        <!-- ........................................................ -->
+
+        <p>
+          <!-- PASTE EMBED CODE HERE -->
+        </p>
+
+        <!-- SOURCE LINE: edit the text below to match where your data came from -->
+        <p>
+          <small>
+            Source: [WHO PUBLISHED YOUR DATA], 2024 general election results.
+            Precinct-level results were added up by county for this map.
+          </small>
+        </p>
+
+      </div>
+    </main>
+    <!-- /.container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html> 
